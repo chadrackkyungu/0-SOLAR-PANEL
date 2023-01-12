@@ -23,13 +23,13 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Mini House Kit </h6>
-                                            <h3>  one </h3>
+                                            <p> Package one </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
-                                                <li>  <i className="fal fa-check my-3" /> Solar Energy Output: 2.5 KWh/Day Run 8 x 5 watt LEDs + TV + DSTV + Computer</li>
-                                                <li> <i className="fal fa-check my-3" /> 2400 WATT inverter with MPPT & AC battery charger </li>
-                                                <li> <i className="fal fa-check my-3" /> 2 x 100Ah deep cycle batteries + 2 x 250W panels Will run off grid and charge from AC Maximum peak power: 3 KVA
+                                                <li>  <i className="fal fa-check" /> Solar Energy Output: 2.5 KWh/Day Run 8 x 5 watt LEDs + TV + DSTV + Computer</li>
+                                                <li> <i className="fal fa-check" /> 2400 WATT inverter with MPPT & AC battery charger </li>
+                                                <li> <i className="fal fa-check" /> 2 x 100Ah deep cycle batteries + 2 x 250W panels Will run off grid and charge from AC Maximum peak power: 3 KVA
                                                 </li>
                                             </ul>
                                         </div>
@@ -41,20 +41,20 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
                                             <h6>Standard House Kit</h6>
-                                            <h3>  two </h3>
+                                            <p> Package two </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
                                                 <li>
-                                                    <i className="fal fa-check my-3" />Solar Energy Output: 4.0 KWh/Day
+                                                    <i className="fal fa-check" />Solar Energy Output: 4.0 KWh/Day
                                                     Battery Energy: 2.4 KWh/Day
                                                     Run 18 x 5 watt LEDs + TV + DSTV + Radio + Fridge
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 2400 WATT inverter with MPPT & AC battery charger
+                                                    <i className="fal fa-check" /> 2400 WATT inverter with MPPT & AC battery charger
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 4 x 100Ah deep cycle batteries + 3 x 250W panels
+                                                    <i className="fal fa-check" /> 4 x 100Ah deep cycle batteries + 3 x 250W panels
                                                     Will run off grid and charge from AC
                                                     Maximum peak power: 3 KVA
 
@@ -71,21 +71,21 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6>Medium House Kit 1</h6>
-                                            <h3>  three </h3>
+                                            <p> Package three </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> Solar Energy Output: 8.0 KWh/Day
+                                                    <i className="fal fa-check" /> Solar Energy Output: 8.0 KWh/Day
                                                     Battery Energy: 4.8 KWh/Day
                                                     Run Small Office, Server Room or House Lighting + TV + Fridge + DStv + Microwave etc.
 
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 4000 watt inverter with MPPT & AC battery charger
+                                                    <i className="fal fa-check" /> 4000 watt inverter with MPPT & AC battery charger
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 4 x 200Ah deep cycle batteries + 6 x 250W panels
+                                                    <i className="fal fa-check" /> 4 x 200Ah deep cycle batteries + 6 x 250W panels
                                                     Will run off grid and charge from AC
                                                     Maximum power: 5 KVA
 
@@ -104,20 +104,20 @@ function PricingHomeOne({ className }) {
 
 
 
-                            <div className="row justify-content-center mt-5">
+                            <div className="row justify-content-center">
                                 <div className="col-lg-4 col-md-6 wow animated fadeInLeft">
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Medium House Kit 2 </h6>
-                                            <h3>  four </h3>
+                                            <p> Package four </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
-                                                <li>  <i className="fal fa-check my-3" /> Solar Energy Output: 12.0 KWh/Day  Battery Energy: 9.6 KWh/Day Run Office + Server Room Or House Lighting + TV + Fridge + DSTV + Microwave + Pump
+                                                <li>  <i className="fal fa-check" /> Solar Energy Output: 12.0 KWh/Day  Battery Energy: 9.6 KWh/Day Run Office + Server Room Or House Lighting + TV + Fridge + DSTV + Microwave + Pump
 
                                                 </li>
-                                                <li> <i className="fal fa-check my-3" /> 4000 WATT inverter with MPPT & AC battery charger </li>
-                                                <li> <i className="fal fa-check my-3" /> 8 x 200Ah deep cycle batteries + 9 x 250W panels
+                                                <li> <i className="fal fa-check" /> 4000 WATT inverter with MPPT & AC battery charger </li>
+                                                <li> <i className="fal fa-check" /> 8 x 200Ah deep cycle batteries + 9 x 250W panels
                                                     Will run off grid and charge from AC
                                                     Maximum power: 5 KVA
 
@@ -132,21 +132,21 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
                                             <h6> Large House Kit </h6>
-                                            <h3>  five </h3>
+                                            <p> Package five </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
                                                 <li>
-                                                    <i className="fal fa-check my-3" />Solar Energy Output: 16.0 KWh/Day
+                                                    <i className="fal fa-check" />Solar Energy Output: 16.0 KWh/Day
                                                     Battery Energy: 14.4 KWh/Day
                                                     Run Office + Server Room Or House Lighting + TV + Fridge + DSTV + Microwave + Pump
 
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 4000 WATT inverter with MPPT & AC battery charger
+                                                    <i className="fal fa-check" /> 4000 WATT inverter with MPPT & AC battery charger
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 12 x 200Ah deep cycle batteries + 12 x 250W panels
+                                                    <i className="fal fa-check" /> 12 x 200Ah deep cycle batteries + 12 x 250W panels
                                                     Will run off grid and charge from AC
                                                     Maximum power: 5 KVA
 
@@ -160,12 +160,12 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Premium House Plus Kit </h6>
-                                            <h3>  six </h3>
+                                            <p> Package six </p>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
                                                 <li>
-                                                    <i className="fal fa-check my-3" />Solar Energy Output: 32.0 KWh/Day
+                                                    <i className="fal fa-check" />Solar Energy Output: 32.0 KWh/Day
                                                     Battery Energy: 19.2 KWh/Day
                                                     Run Office, Server Room Or House Lighting
                                                     + TV + Fridge + DSTV + Microwave + Pump + Aircon
@@ -173,10 +173,10 @@ function PricingHomeOne({ className }) {
 
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" />8000 WATT inverter with MPPT & AC battery charger
+                                                    <i className="fal fa-check" />8000 WATT inverter with MPPT & AC battery charger
                                                 </li>
                                                 <li>
-                                                    <i className="fal fa-check my-3" /> 16 x 200Ah gel batteries + 24 x 250W panels
+                                                    <i className="fal fa-check" /> 16 x 200Ah gel batteries + 24 x 250W panels
                                                     Will run off grid and charge from AC
                                                     Maximum power: 10 KVA
 

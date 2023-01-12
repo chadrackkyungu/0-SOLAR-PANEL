@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function ProjectHomeOne({ className }) {
     return (
         <>
-            <section className={`appie-project-area pb-100 mt-5 pt-5 ${className || ''}`}>
+            <section className={`appie-project-area pb-100 mt-5 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
