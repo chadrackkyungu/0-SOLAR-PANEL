@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { GiBattery75, GiSolarPower } from 'react-icons/gi';
-import { Link } from 'react-router-dom';
 import AboutImg from '../../assets/images/About/846X677.PNG';
 
 
@@ -13,7 +12,7 @@ function AboutSection({ className }) {
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
                             <h2 className='title'>About</h2>
-                            <h4 className="my-4"> GianTech Solar panels </h4>
+                            <h4 className="my-5"> GianTech Solar panels </h4>
                             <p>
                                 GianTech Solar panel offers customized backup, hybrid and off-grid solutions to meet your power demands. We utilize the latest technology to ensure maximum design life and cost savings.
                             </p>
@@ -35,17 +34,6 @@ function AboutSection({ className }) {
                                     <h5 className="title mx-4"> 300 + KWH of Lithium Batteries Installed </h5>
                                 </div>
                             </div>
-
-                            <div className="col-lg-6">
-                                <div
-                                    className="appie-features-content wow animated fadeInRight"
-                                    data-wow-duration="2000ms"
-                                    data-wow-delay="600ms"
-                                >
-                                    <Link className="btn btn-success" to="/about-us">  Read More about us </Link>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>

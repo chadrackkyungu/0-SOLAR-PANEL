@@ -15,7 +15,7 @@ function ProjectHomeOne({ className }) {
                                 data-wow-duration="1000ms"
                                 data-wow-delay="0ms"
                             >
-                                <div className="row">
+                                <div className="row my-5">
                                     <div className="col-lg-6">
                                         <div className="appie-project-content">
                                             <h3 className="title"> We are worth to trust</h3>
@@ -26,7 +26,7 @@ function ProjectHomeOne({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
+                                <div className="appie-project-thumb mb-4">
                                     <img src={projectThumb} alt="" />
                                 </div>
                             </div>

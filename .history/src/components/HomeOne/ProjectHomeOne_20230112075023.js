@@ -1,7 +1,8 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import projectThumb from '../../assets/images/project-thumb.png';
+import projectThumb from '../../assets/images/project-bg-2.png';
 
 function ProjectHomeOne({ className }) {
     return (

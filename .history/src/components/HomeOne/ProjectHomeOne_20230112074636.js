@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -26,9 +27,9 @@ function ProjectHomeOne({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
-                                    <img src={projectThumb} alt="" />
-                                </div>
+                                {/* <div className="appie-project-thumb">
+                                    <img className='m-4' src={projectThumb} alt="" />
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ import Drawer from '../Mobile/Drawer';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
-import PackagesSections from './PackagesSections';
+import PricingHomeOne from './PricingHomeOne';
 import ProjectHomeOne from './ProjectHomeOne';
 import WhySection from './WhySection';
 // import TeamHomeOne from './TeamHomeOne';
@@ -29,7 +29,7 @@ function HomeOne() {
             <AboutSection />
             <WhySection />
             <ServiceSection />
-            <PackagesSections />
+            <PricingHomeOne />
             <ProjectHomeOne />
             <FooterHomeOne />
             <BackToTop />

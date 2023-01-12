@@ -4,18 +4,18 @@ import React from 'react';
 import useToggle from '../../Hooks/useToggle';
 import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
-// import BlogHomeOne from './BlogHomeOne';
-// import FaqHomeOne from './FaqHomeOne';
-// import FeaturesHomeOne from './FeaturesHomeOne';
+import BlogHomeOne from './BlogHomeOne';
+import FaqHomeOne from './FaqHomeOne';
+import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
-import PackagesSections from './PackagesSections';
+import PricingHomeOne from './PricingHomeOne';
 import ProjectHomeOne from './ProjectHomeOne';
 import WhySection from './WhySection';
-// import TeamHomeOne from './TeamHomeOne';
-// import TestimonialHomeOne from './TestimonialHomeOne';
-import ServiceSection from './ServiceSection';
+import TeamHomeOne from './TeamHomeOne';
+import TestimonialHomeOne from './TestimonialHomeOne';
+import TrafficHomeOne from './TrafficHomeOne';
 import AboutSection from './AboutSection';
 
 function HomeOne() {
@@ -28,9 +28,7 @@ function HomeOne() {
             <HeroHomeOne />
             <AboutSection />
             <WhySection />
-            <ServiceSection />
-            <PackagesSections />
-            <ProjectHomeOne />
+            <TrafficHomeOne />
             <FooterHomeOne />
             <BackToTop />
 
@@ -38,11 +36,13 @@ function HomeOne() {
             {/* <FeaturesHomeOne /> */}
             {/* <TestimonialHomeOne /> */}
             {/* <TeamHomeOne /> */}
+            {/* <PricingHomeOne /> */}
 
             {/* <div className='bg-white'>
                 <FaqHomeOne />
             </div> */}
             {/* <BlogHomeOne /> */}
+            <ProjectHomeOne />
         </>
     );
 }

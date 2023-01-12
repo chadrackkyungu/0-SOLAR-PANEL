@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import thumb from '../../assets/images/traffic-thumb.png';
+// import thumb from '../../assets/images/traffic-thumb.png';
 
 function TrafficHomeOne({ className }) {
     return (
@@ -8,15 +8,9 @@ function TrafficHomeOne({ className }) {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">
-                        <div className="appie-traffic-title">
-                            <h3 className="title py-5"> Lorem Ipsum is simply dummy text of the </h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                            </p>
-                        </div>
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
-                                <div className="appie-traffic-service mb-30">
+                                <div className="appie-traffic-service rounded border-light mb-30">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -38,15 +32,7 @@ function TrafficHomeOne({ className }) {
                     </div>
                 </div>
             </div>
-            <div className="traffic-thumb ">
-                <img
-                    className="wow animated fadeInRight"
-                    data-wow-duration="2000ms"
-                    data-wow-delay="200ms"
-                    src={thumb}
-                    alt=""
-                />
-            </div>
+
         </section>
     );
 }

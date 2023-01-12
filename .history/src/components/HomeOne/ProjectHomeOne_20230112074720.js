@@ -26,7 +26,7 @@ function ProjectHomeOne({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
+                                <div className="appie-project-thumb m-5">
                                     <img src={projectThumb} alt="" />
                                 </div>
                             </div>

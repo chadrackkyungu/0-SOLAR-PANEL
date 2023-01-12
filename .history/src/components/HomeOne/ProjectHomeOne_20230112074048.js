@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { Link } from 'react-router-dom';
 import projectThumb from '../../assets/images/project-thumb.png';
 
 function ProjectHomeOne({ className }) {
@@ -21,12 +20,12 @@ function ProjectHomeOne({ className }) {
                                             <h3 className="title"> We are worth to trust</h3>
                                             <p> Start the conversation by Clicking on the button bellow </p>
                                             <div className="input-box mt-30">
-                                                <Link to="/about-us">   <button type="button"> Get in touch with us </button> </Link>
+                                                <button type="button"> Get in touch with us </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
+                                <div className="appie-project-thumb m-4 rounded-circle">
                                     <img src={projectThumb} alt="" />
                                 </div>
                             </div>

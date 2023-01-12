@@ -38,11 +38,11 @@ function AboutSection({ className }) {
 
                             <div className="col-lg-6">
                                 <div
-                                    className="appie-features-content wow animated fadeInRight"
+                                    className="appie-features-content wow animated fadeInRight text-lg-center"
                                     data-wow-duration="2000ms"
                                     data-wow-delay="600ms"
                                 >
-                                    <Link className="btn btn-success" to="/about-us">  Read More about us </Link>
+                                    <Link className="main-btn text-sm-center" to="/about-us">  Read More about us </Link>
                                 </div>
                             </div>
 

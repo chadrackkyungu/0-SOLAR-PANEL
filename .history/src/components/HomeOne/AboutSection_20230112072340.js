@@ -42,7 +42,17 @@ function AboutSection({ className }) {
                                     data-wow-duration="2000ms"
                                     data-wow-delay="600ms"
                                 >
-                                    <Link className="btn btn-success" to="/about-us">  Read More about us </Link>
+                                    <span>Custom Reacyions</span>
+                                    <h3 className="title">
+                                        Let the <br /> Conversation flow
+                                    </h3>
+                                    <p>
+                                        Car boot absolutely bladdered posh burke the
+                                        wireless mush some dodg.
+                                    </p>
+                                    <Link className="main-btn" to="/about-us">
+                                        Learn More
+                                    </Link>
                                 </div>
                             </div>
 

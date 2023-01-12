@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
-import { Link } from 'react-router-dom';
 import projectThumb from '../../assets/images/project-thumb.png';
 
 function ProjectHomeOne({ className }) {
@@ -18,11 +16,16 @@ function ProjectHomeOne({ className }) {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="appie-project-content">
-                                            <h3 className="title"> We are worth to trust</h3>
-                                            <p> Start the conversation by Clicking on the button bellow </p>
-                                            <div className="input-box mt-30">
-                                                <Link to="/about-us">   <button type="button"> Get in touch with us </button> </Link>
-                                            </div>
+                                            <h3 className="title">
+                                                Start your project with appie.
+                                            </h3>
+                                            <p>We will email you only about this product.</p>
+                                            <form action="#">
+                                                <div className="input-box mt-30">
+                                                    <input type="text" placeholder="Your Email" />
+                                                    <button type="button">Subscribe</button>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

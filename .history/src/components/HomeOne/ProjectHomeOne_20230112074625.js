@@ -26,9 +26,9 @@ function ProjectHomeOne({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
-                                    <img src={projectThumb} alt="" />
-                                </div>
+                                {/* <div className="appie-project-thumb">
+                                    <img className='m-4' src={projectThumb} alt="" />
+                                </div> */}
                             </div>
                         </div>
                     </div>
