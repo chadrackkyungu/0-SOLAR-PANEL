@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { GiBattery75, GiSolarPower } from 'react-icons/gi';
