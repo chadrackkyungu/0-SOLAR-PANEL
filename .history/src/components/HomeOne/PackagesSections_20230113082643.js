@@ -23,7 +23,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Mini House Kit </h6>
-                                            <h3> Package 1 </h3>
+                                            <h3> Package one </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
@@ -41,7 +41,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
                                             <h6>Standard House Kit</h6>
-                                            <h3> Package 2 </h3>
+                                            <h3> Package two </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
@@ -71,7 +71,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6>Medium House Kit 1</h6>
-                                            <h3> Package 3 </h3>
+                                            <h3> Package three </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
@@ -109,7 +109,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Medium House Kit 2 </h6>
-                                            <h3> Package 4 </h3>
+                                            <h3> Package four </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
@@ -132,7 +132,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
                                             <h6> Large House Kit </h6>
-                                            <h3> Package 5 </h3>
+                                            <h3> Package five </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>
@@ -160,7 +160,7 @@ function PricingHomeOne({ className }) {
                                     <div className="pricing-one__single">
                                         <div className="pricig-heading">
                                             <h6> Premium House Plus Kit </h6>
-                                            <h3> Package  6 </h3>
+                                            <h3> Package  six </h3>
                                         </div>
                                         <div className="pricig-body">
                                             <ul>

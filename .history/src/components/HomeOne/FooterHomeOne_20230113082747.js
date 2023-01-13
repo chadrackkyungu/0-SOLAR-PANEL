@@ -42,24 +42,36 @@ function FooterHomeOne({ className }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="footer-navigation">
                                 <h4 className="title">Navigation</h4>
                                 <ul>
                                     <li>
-                                        <Link to="/">About Us</Link>
+                                        <Link to="/about-us">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Service</Link>
+                                        <Link to="/Service">Service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Contact</Link>
+                                        <Link to="/contact">Contact</Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="footer-navigation">
+                                <h4 className="title">Support</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Faqs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
                             <div className="footer-widget-info">
                                 <h4 className="title">Get In Touch</h4>
                                 <ul>
@@ -70,7 +82,7 @@ function FooterHomeOne({ className }) {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-phone" /> +(27) 68 027 5001
+                                            <i className="fal fa-phone" /> +(27) 027 5001
                                         </a>
                                     </li>
                                     <li>
@@ -86,7 +98,7 @@ function FooterHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="copyright-text">
-                                    <p>Copyright © 2023 GianTech All rights reserved.</p>
+                                    <p>Copyright © 2023 Sola Panels. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

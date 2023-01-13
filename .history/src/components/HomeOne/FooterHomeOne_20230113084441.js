@@ -86,7 +86,7 @@ function FooterHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="copyright-text">
-                                    <p>Copyright © 2023 GianTech All rights reserved.</p>
+                                    <p>Copyright © 2023 Sola Panels. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

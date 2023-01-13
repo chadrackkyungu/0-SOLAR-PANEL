@@ -21,7 +21,7 @@ function ProjectHomeOne({ className }) {
                                             <h3 className="title"> We are worth to trust</h3>
                                             <p> Start the conversation by Clicking on the button bellow </p>
                                             <div className="input-box mt-30">
-                                                <Link to="/">   <button type="button"> Get in touch with us on +277 68 027 5001 </button> </Link>
+                                                <Link to="/about-us">   <button type="button"> Get in touch with us </button> </Link>
                                             </div>
                                         </div>
                                     </div>

@@ -1,11 +1,20 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable prettier/prettier */
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/Logo/Giantech_logo.png';
 
-function Drawer({ drawer, action }) {
-
+function Drawer({ drawer, action, lang }) {
+    const [itemSize, setSize] = useState('0px');
+    const [item, setItem] = useState('home');
+    const handler = (e, value) => {
+        // e.preventDefault();
+        const getItems = document.querySelectorAll(`#${value} li`).length;
+        if (getItems > 0) {
+            setSize(`${43 * getItems}px`);
+            setItem(value);
+        }
+    };
     return (
         <>
             <div
@@ -36,13 +45,20 @@ function Drawer({ drawer, action }) {
                                 <div className="footer-widget-info">
                                     <ul>
                                         <li>
-                                            <a href="#">  <i className="fal fa-envelope"></i>  example@.com </a>
+                                            <a href="#">
+                                                <i className="fal fa-envelope"></i>{' '}
+                                                example@.com
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#">   <i className="fal fa-phone"></i> +(27) 68 027 5001</a>
+                                            <a href="#">
+                                                <i className="fal fa-phone"></i> +(27) 68 027 5001
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#">   <i className="fal fa-map-marker-alt"></i>21 Doris street berea </a>
+                                            <a href="#">
+                                                <i className="fal fa-map-marker-alt"></i>21 Doris street berea
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>

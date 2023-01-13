@@ -2,7 +2,7 @@
 import React from 'react';
 import { GiBattery75, GiSolarPower } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
-import AboutImg from '../../assets/images/About/about_v2.png';
+import AboutImg from '../../assets/images/About/about_v1.png';
 
 
 function AboutSection({ className }) {
