@@ -14,7 +14,7 @@ function WhySection({ className }) {
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
                             <h3 className="appie-title">GianTech Energy Solutions</h3>
-                            <p> Why Giantech energy? </p>
+                            <p> Why Gian Tech Solar panel ? </p>
                         </div>
                     </div>
                 </div>

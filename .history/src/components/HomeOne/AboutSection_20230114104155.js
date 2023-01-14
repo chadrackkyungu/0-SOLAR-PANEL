@@ -16,7 +16,7 @@ function AboutSection({ className }) {
                             <h2 className='title'>About</h2>
                             <h4 className="my-4"> GianTech Energy </h4>
                             <p>
-                                GianTech energy offers customized backup, hybrid and off-grid solutions to meet your power demands. We utilize the latest technology to ensure maximum design life and cost savings.
+                                GianTech Solar panel offers customized backup, hybrid and off-grid solutions to meet your power demands. We utilize the latest technology to ensure maximum design life and cost savings.
                             </p>
                         </div>
                         <div className="row">

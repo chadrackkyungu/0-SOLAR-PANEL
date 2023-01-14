@@ -12,7 +12,7 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <h2 className="appie-title">  GianTech Energy  </h2>
+                                <h2 className="appie-title">  GianTech Energy,  </h2>
                                 <p>  Customized Backup, Hybrid And Off-Grid Solutions   </p>
                             </div>
                         </div>
