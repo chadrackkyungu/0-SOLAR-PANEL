@@ -18,7 +18,7 @@ function FooterHomeOne({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    Solar panel technology is a solar panel system that utilizes renewable organic materials to produce energy.
+                                    Solar panel technology is a solar panel system that utilizes renewable organic materials to produce energy. The technology was developed by Giantech Energy Solutions, a leading provider of software and hardware solutions for solar energy.
                                 </p>
 
                                 <div className="social mt-30">
