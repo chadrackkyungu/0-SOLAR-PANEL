@@ -65,7 +65,7 @@ function FooterHomeOne({ className }) {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-map-marker-alt" /> We locate in Midrand, Johannesburg
+                                            <i className="fal fa-map-marker-alt" /> 21 Doris Street Bearea
                                         </a>
                                     </li>
                                 </ul>
