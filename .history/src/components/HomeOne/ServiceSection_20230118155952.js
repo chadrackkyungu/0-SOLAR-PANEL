@@ -1,8 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
+import { FaSolarPanel } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
 import { CiDeliveryTruck } from "react-icons/ci";
-import { GrInstall } from "react-icons/gr";
 
 function ServiceSection({ className }) {
     return (
@@ -40,7 +40,7 @@ function ServiceSection({ className }) {
                             <div className="col-lg-4 col-md-6">
                                 <div className="appie-single-service rounded  border-color mb-30 item-2">
                                     <div className="icon">
-                                        <GrInstall size={30} />
+                                        <FaSolarPanel size={30} />
                                     </div>
                                     <h5 className="title my-3">Installation</h5>
                                     <p className=''>All our installations are done by qualified electricians with a Trade Test Certificate and a Wireman's license. After installation you will be supplied with a COC, rendering the installation legal and professional</p>

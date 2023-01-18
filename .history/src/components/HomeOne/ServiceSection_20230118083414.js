@@ -1,8 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
+import { FaSolarPanel } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
-import { CiDeliveryTruck } from "react-icons/ci";
-import { GrInstall } from "react-icons/gr";
 
 function ServiceSection({ className }) {
     return (
@@ -19,33 +18,47 @@ function ServiceSection({ className }) {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="row">
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="appie-single-service rounded  border-color mb-30 item-2">
                                     <div className="icon">
+                                        {/* <i className="fal fa-check" /> */}
                                         <SiMaterialdesign size={30} />
                                     </div>
                                     <h5 className="title my-3">Design</h5>
                                     <p className=''>We will design the best energy solution that fits the energy needs of your home, office, commercial or industry building</p>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="appie-single-service rounded  border-color mb-30 item-2">
                                     <div className="icon">
-                                        <CiDeliveryTruck size={30} />
+                                        {/* <i className="fal fa-check" /> */}
+                                        <FaSolarPanel size={30} />
                                     </div>
                                     <h5 className="title my-3">Supply</h5>
                                     <p className=''>We supply world class energy solutions at competitive pricing, coupled with great quality and exceptional service</p>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="appie-single-service rounded  border-color mb-30 item-2">
                                     <div className="icon">
-                                        <GrInstall size={30} />
+                                        {/* <i className="fal fa-check" /> */}
+                                        <FaSolarPanel size={30} />
                                     </div>
                                     <h5 className="title my-3">Installation</h5>
                                     <p className=''>All our installations are done by qualified electricians with a Trade Test Certificate and a Wireman's license. After installation you will be supplied with a COC, rendering the installation legal and professional</p>
                                 </div>
                             </div>
+                            <div className="col-lg-6 col-md-6">
+                                <div className="appie-single-service rounded  border-color mb-30 item-2">
+                                    <div className="icon">
+                                        {/* <i className="fal fa-check" /> */}
+                                        <FaSolarPanel size={30} />
+                                    </div>
+                                    <h5 className="title my-3">Contrary to popular belief</h5>
+                                    <p className=''>Contrary to popular belief Contrary to popular belief</p>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>

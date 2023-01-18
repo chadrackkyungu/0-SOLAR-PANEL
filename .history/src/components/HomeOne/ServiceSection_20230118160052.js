@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
+import { FaSolarPanel } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { GrInstall } from "react-icons/gr";
